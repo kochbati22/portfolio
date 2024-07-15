@@ -1,0 +1,340 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+   background-color: rgb(14, 10, 10);
+   color: white;
+}
+nav{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 150px;
+    padding-left: 70px;
+} 
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+   
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+   
+}
+nav ul li a:hover{
+    color: aqua;
+}
+.logo{
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo .h{
+    color: rgb(235, 245, 245);
+}
+.logo .gg {
+    color: aquamarine;
+} 
+.hhh{
+
+  width: 80%;
+  padding-top: 120px;
+  padding-left: 120px;
+  padding-right: 50px;
+  justify-content: space-between;
+  display: flex;
+}
+.pip{
+ padding: 10px;
+ margin: 20px;
+}
+.fa-brands {
+    
+    padding-right: 15px;
+    color: aqua;
+}
+.c{
+    margin: 10px;
+   font-size: xx-large;
+    font-weight: 800;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cc{
+    margin: 15px;
+    font-size: larger;
+    font-weight: 700;
+    color: rgb(21, 178, 163);
+}
+.ccc{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: block;
+    max-height: 4.5em;
+    line-height: 1.5em;
+    
+   
+    
+
+}
+.cccc .kk{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: aqua;
+    margin: 20px;
+}
+.cccc .kkk{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: aqua;
+} 
+.gk{
+    max-width: 50%;
+}
+.gkk img {
+    width: 70%;
+    border-radius: 60%;
+   
+    padding-left: 50px;
+    box-shadow: 20px 20px 20px aqua;
+   
+}
+
+.gkk img:hover {
+    box-shadow: 10px 10px 16px aqua;
+}
+.About{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(14, 10, 10);
+    color: white;
+    padding-top: 50px;
+   
+   
+    
+
+}
+.title{
+    
+    padding-top: 70px;
+    padding-bottom: 50px;
+  
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+   
+   
+}
+.koch{
+    color: aqua;
+}
+.centent{
+    width: 100%;
+    height: 100vb;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+.p{
+    width: 50%;
+  margin-bottom: 10px;
+padding-left: 80px;
+justify-content: space-between;
+display: block;
+font-weight: 100;
+
+}
+.image{
+    width: 50%;
+    
+    padding-left: 150px;
+}
+.image img{
+    width: 50%;
+    border-radius: 50%;
+    box-shadow: 40px  40px 40px 40px aqua;
+}
+.m1{
+    margin-bottom: 5px;
+    font-weight: 100;
+}
+.m2{
+    margin-bottom: 5px;
+    font-weight: 100;
+}
+.m3{
+    margin-bottom: 5px;
+    font-weight: 100;
+}
+.Skills{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(14, 10, 10);
+    color: white;
+}
+.ski{
+    padding-top: 75px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+  
+}
+.i{
+color: aqua;
+}
+.donner{
+    display: flex;
+    width: 100%;
+    height: 100vb;
+    padding-top: 70px;
+    justify-content: space-between;
+}
+
+.technique{
+    width: 50%;
+    padding-left: 120px;
+
+}
+.framework{
+    width: 50%;
+    padding-right: 20px;
+}
+.h3{
+    border-bottom: 5px solid white;
+    width: 95px;
+}
+.h2{
+    border-bottom: 5px solid white;
+    width: 120px;
+}
+.Skills-bar {
+    width: 90%;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin: 10px 0;
+    overflow: hidden;
+ 
+}
+.Skills-level {
+    height: 5px;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.Skills-bare {
+    width: 90%;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+.Skills-leve {
+    height: 5px;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.Project{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(14, 10, 10);
+    color: white;
+    
+}
+.Project-container{
+   
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+   
+
+}
+
+   
+   
+
+.Project-hh{
+    border: solid 2px aqua;
+    width: 220px;
+    height: 300px;
+}
+.Project-h{
+    border: solid 2px aqua;
+    width: 220px;
+    height: 300px;
+
+}
+.Project-hhh{
+    border: solid 2px aqua;
+    width: 220px;
+    height: 300px;
+    border-radius: 5px;
+
+}
+.papa{
+    width: 100%;
+    height: 300px;
+}
+.mama{
+    width: 100%;
+    height: 300px;
+}
+.nana{
+    width: 100%;
+    height: 300px;
+}
+
+.Contact{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(14, 10, 10);
+    color: white;
+}
+.form{
+    text-align: center;
+  padding-top: 60px;
+ }
+ .input {
+   width: 27%;
+   height: 40px;
+   border-radius: 5px;
+  border-bottom:aqua;
+  border-bottom:aqua;
+  border-top:aqua ;
+  border-left: aqua;
+  border-right: aqua;
+  border: solid;
+   margin-bottom: 25px;
+   margin-left: 10px;
+   box-shadow: 5px  5px 5px 5px aqua;
+}
+.textarea{
+    width: 27%;
+    height: 200px;
+    box-shadow: 5px  5px 5px 5px aqua;
+}
+.button{
+    margin-top: 20px;
+    width: 120px;
+    height: 40px;
+background-color: aqua;
+box-shadow: 5px  5px 5px 5px aqua;
+
+}
